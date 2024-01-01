@@ -18,7 +18,7 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({
     children,
     onClick 
 }) => {
-    const baseClass = styles.styledContainer;
+    const baseClass = styles.container;
     const variantClass = styles[variant];
     const sizeClass = styles[size];
     
